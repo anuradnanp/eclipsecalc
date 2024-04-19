@@ -48,7 +48,7 @@ let Eclipse = function(p) {
 		p.setAttributes('antialias', true);
 
 		kanvas = p.createCanvas(300, 300, p.WEBGL);
-		kanvas.position(0, 155);
+		kanvas.position(10, 155);
 		kanvas.style('border-radius', '0');
 
 		// the time increment buttons
